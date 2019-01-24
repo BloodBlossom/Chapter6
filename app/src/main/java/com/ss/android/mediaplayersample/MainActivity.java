@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements OnSeekBarChangeLi
         thirdPartyBtn = findViewById(R.id.btn_third_party);
         mSeekbar.setOnSeekBarChangeListener(this);
 
-        SurfaceView mSurfaceView = (SurfaceView) findViewById(R.id.surfaceview);
+        SurfaceView mSurfaceView =  findViewById(R.id.surfaceview);
         //SurfaceView帮助类对象
         holder = mSurfaceView.getHolder();
         //是采用自己内部的双缓冲区，而是等待别人推送数据
